@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+
+  padding: 2rem;
+}
+/* .wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+} */
+.screen {
+  height: 13rem;
+  width: 70rem;
+  background-color: rgb(238, 231, 231);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.display {
+  height: 8.25rem;
+  width: 60rem;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  border: 2px solid black;
+  text-align: right;
+  padding: 2rem;
+  font-size: 4rem;
+}
+.row {
+  height: 15rem;
+  width: 70rem;
+  background-color: rgb(101, 164, 223);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+.buttons {
+  width: 14rem;
+  height: 8.5rem;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 1rem;
+}
+.bg-orange {
+  background-color: orange;
+}
+.bg-black {
+  color: white;
+  background-color: black;
+}
+#multiply {
+  padding-top: 2.25rem;
+}
+.bg-green {
+  background-color: green;
+  color: white;
+}
